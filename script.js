@@ -130,6 +130,37 @@ page.addEventListener("mousemove", (e) => {
   btnBlock.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
 });
 
+// burger
+
+let burgerBlock = document.querySelector(".burgerBlock"),
+    lines = document.querySelectorAll(".line");
+
+burgerBlock.addEventListener("mouseenter", () => {
+  for (let i = 0; i <= lines.length; i++) {
+    if (lines[i].classList.contains("up")) {
+      lines[i].classList.add("upLine");
+    }else if (lines[i].classList.contains("down")) {
+      lines[i].classList.add("downLine");
+    }else {
+      lines[i].classList.add("hidden");
+    }
+  }
+});
+
+burgerBlock.addEventListener("mouseleave", () => {
+  for (let i = 0; i <= lines.length; i++) {
+    if (lines[i].classList.contains("upLine")) {
+      lines[i].classList.remove("upLine");
+    }else if (lines[i].classList.contains("downLine")) {
+      lines[i].classList.remove("downLine");
+    }else {
+      lines[i].classList.remove("hidden");
+    }
+  }
+});
+
+// burger
+
 
 
 

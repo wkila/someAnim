@@ -49,12 +49,8 @@
   margin-right: auto;
   text-align: center;
 }
-  
-.burgerBlock {
-  background-color: black;
-  width: 50px;
-  height: 50px;
-}
+
+
   
 .header {
   text-align: center;
@@ -132,6 +128,10 @@
   animation-name: leftSlide;
   animation-duration: 1s;
 }
+
+
+
+/* all anim */
 
 @keyframes rightSlide {
   from {
