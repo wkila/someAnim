@@ -1,0 +1,34 @@
+
+
+.formBlock {
+    width: 155px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blockInput {
+    padding-bottom: 20px;
+}
+
+.blockInput h1 {
+    text-align: left;
+}
+
+.blockInput input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.pasLine {
+    width: 70px;
+    height: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.linesPas {
+    display: flex;
+    justify-content: space-between;
+}

@@ -161,6 +161,13 @@ burgerBlock.addEventListener("mouseleave", () => {
 
 // burger
 
+// form
+
+let input = document.querySelector(".pasBad");
+let linesPas = document.querySelectorAll(".pasLine");
+
+
+
 
 
 

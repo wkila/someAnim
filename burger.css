@@ -1,7 +1,7 @@
 .burgerBlock {
     width: 50px;
     height: 30px;
-    margin: 200px auto;
+    /* margin: 200px auto; ОШИБКА!!! */
     position: relative;
     cursor: pointer;
 }
@@ -23,6 +23,7 @@
 .middle {
     position: absolute;
     top: 50%;
+    top: 50%;
 }
   
 .down {
@@ -43,6 +44,6 @@
   
 .downLine {
     transition: transform linear .2s;
-    transform: rotate(-45deg) translate(11px, -12px);
+    transform: rotate(-45deg) translate(11px, -11px);
     
 }
